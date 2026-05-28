@@ -1,0 +1,22 @@
+{
+  "name": "magic-vein-plus-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python backend.py",
+    "dev": "cd frontend && npm run dev",
+    "backend": "python backend.py",
+    "backend:install": "pip install -r requirements.txt",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "prepare": "cd frontend && npm install"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "express": "^4.18.4",
+    "koffi": "^2.16.0",
+    "sharp": "^0.33.0",
+    "ws": "^8.13.0"
+  }
+}

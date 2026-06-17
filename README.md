@@ -1,4 +1,4 @@
-# Magic Vein Plus Web Application
+# Palm Vein Recgnition Web Application
 
 This project scaffolds a full-stack web application for the Magic Vein Plus SDK using Node.js + Express + WebSocket and a React + Vite frontend.
 
